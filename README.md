@@ -38,14 +38,14 @@
 
 ---
 
-## 🛠️ **Proyectos destacados**
+<!-- ## 🛠️ **Proyectos destacados**
 - **Proyecto 1**: *[Nombre del proyecto]*  
   Breve descripción del proyecto, tecnologías utilizadas y logros alcanzados.  
 
 - **Proyecto 2**: *[Nombre del proyecto]*  
   Breve descripción del proyecto, tecnologías utilizadas y logros alcanzados.  
 
-*(Agrega links a tus repositorios si están en GitHub o alguna demo)*
+*(Agrega links a tus repositorios si están en GitHub o alguna demo)* -->
 
 ---
 
