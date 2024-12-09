@@ -1,11 +1,231 @@
----
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Francisco Bonfanti</title>
+    <meta
+      name="description"
+      content="Portafolio personal de Francisco Bonfanti"
+    />
+    <link rel="stylesheet" href="/src/styles/global.css" />
+  </head>
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
----
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="navbar-container">
+        <a href="#" class="navbar-logo">Francisco Bonfanti</a>
+        <nav class="navbar-links">
+          <a href="#hero" class="nav-link">Inicio</a>
+          <a href="#about" class="nav-link">Sobre Mí</a>
+          <a href="#education" class="nav-link">Formación</a>
+          <a href="#experience" class="nav-link">Experiencia</a>
+          <a href="#skills" class="nav-link">Habilidades</a>
+          <a href="#contact" class="nav-link">Contacto</a>
+        </nav>
+        <button id="language-toggle" class="language-btn">Inglés</button>
+      </div>
+    </header>
 
-<Layout>
-	<Welcome />
-</Layout>
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="hero">
+        <div class="hero-content">
+          <img src="/img/fran-foto.jpeg" alt="Francisco Bonfanti" class="hero-image" />
+          <div class="hero-text">
+            <h1 class="title">Francisco Bonfanti</h1>
+            <p class="subtitle">Desarrollador de Software</p>
+            <p class="description">
+              Aplicando conocimientos para crecer en el ámbito laboral.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Sobre Mí -->
+      <section id="about" class="about">
+        <h2 class="section-title">Sobre Mí</h2>
+        <p class="about-description">
+          Soy Francisco Bonfanti, desarrollador de software, apasionado por la
+          tecnología y el aprendizaje constante. Me interesa aplicar mis
+          conocimientos para crecer profesionalmente y colaborar en proyectos
+          innovadores.
+        </p>
+      </section>
+
+      <!-- Tecnologías -->
+<section id="technologies" class="technologies">
+  <h2 class="section-title">Tecnologías que Manejo</h2>
+  
+  <!-- Tecnologías de Desarrollo -->
+  <div class="tech-category">
+    <h3 class="category-title">Tecnologías de Desarrollo</h3>
+    <div class="tech-icons">
+      <div class="tech-item">
+        <img src="/img/angularr.webp" alt="Angular" class="tech-icon" />
+        <p>Angular</p>
+      </div>
+      <div class="tech-item">
+        <img src="/img/javascript.png" alt="JavaScript" class="tech-icon" />
+        <p>JavaScript</p>
+      </div>
+      <div class="tech-item">
+        <img src="/img/html.png" alt="HTML5" class="tech-icon" />
+        <p>HTML</p>
+      </div>
+      <div class="tech-item">
+        <img src="/img/css.webp" alt="CSS3" class="tech-icon" />
+        <p>CSS3</p>
+      </div>
+      <div class="tech-item">
+        <img src="/img/mysql.png" alt="MySQL" class="tech-icon" />
+        <p>MySQL</p>
+      </div>
+      <div class="tech-item">
+        <img src="/img/mongodb.png" alt="MongoDB" class="tech-icon" />
+        <p>MongoDB</p>
+      </div>
+      <div class="tech-item">
+        <img src="/img/SpringBoot.png" alt="SpringBoot" class="tech-icon" />
+        <p>SpringBoot</p>
+      </div>
+      <div class="tech-item">
+        <img src="https://img.icons8.com/3d-fluency/94/java-coffee-cup-logo.png" alt="Java" class="tech-icon" />
+        <p>Java</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Herramientas -->
+  <div class="tech-category">
+    <h3 class="category-title">Herramientas</h3>
+    <div class="tech-icons">
+      <div class="tech-item">
+        <img src="/img/icons8-git-48.png" alt="Git" class="tech-icon" />
+        <p>Git</p>
+      </div>
+      <div class="tech-item">
+        <img src="/img/github.png" alt="GitHub" class="tech-icon" />
+        <p>GitHub</p>
+      </div>
+      <div class="tech-item">
+        <img src="/img/jira.png" alt="Jira" class="tech-icon" />
+        <p>Jira</p>
+      </div>
+      <div class="tech-item">
+        <img src="/img/figmaa.png" alt="Figma" class="tech-icon" />
+        <p>Figma</p>
+      </div>
+      <div class="tech-item">
+        <img src="/img/Office.png" alt="Office" class="tech-icon" />
+        <p>Office</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <!-- Formación Académica -->
+      <section id="education" class="education">
+        <h2 class="section-title">Formación Académica</h2>
+        <div class="experience-list">
+          <div class="experience-item">
+            <h3>Tecnicatura en Desarrollo de Software</h3>
+            <p>IES Santa Fe | Abril 2022 - Noviembre 2024</p>
+          </div>
+          <div class="experience-item">
+            <h3>Administración y Economía</h3>
+            <p>Escuela D.F. Sarmiento | Abril 2015 - Noviembre 2020</p>
+          </div>
+          <div class="experience-item">
+            <h3>Desarrollo Web, Coderhouse</h3>
+            <p>Abril 2024 - Junio 2024</p>
+          </div>
+          <div class="experience-item">
+            <h3>Curso de JavaScript</h3>
+            <p>Coderhouse | Junio 2024 - Agosto 2024</p>
+          </div>
+          <div class="experience-item">
+            <h3>Curso de Angular</h3>
+            <p>Coderhouse | Agosto 2024 - Noviembre 2024</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experiencia Laboral -->
+      <section id="experience" class="experience">
+        <h2 class="section-title">Experiencia Laboral</h2>
+        <div class="experience-list">
+          <div class="experience-item">
+            <h3>Atención al Público</h3>
+            <p><strong>Teniente Dan</strong> | Octubre 2023 - Actualidad</p>
+          </div>
+          <div class="experience-item">
+            <h3>Gestión de Pedidos</h3>
+            <p>
+              <strong>Fiambrería Don Pepe</strong> | Mayo 2022 - Octubre 2022
+            </p>
+          </div>
+          <div class="experience-item">
+            <h3>Bartender</h3>
+            <p>
+              <strong>Simonah Disco</strong> | Noviembre 2022 - Septiembre 2023
+            </p>
+          </div>
+          <div class="experience-item">
+            <h3>Bartender</h3>
+            <p>
+              <strong>Menta Food and Roll</strong> | Noviembre 2021 - Febrero 2022
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Habilidades -->
+      <section id="skills" class="skills">
+        <h2 class="section-title">Habilidades</h2>
+        <ul class="skills-list">
+          <li>Trabajo en equipo</li>
+          <li>Buena comunicación</li>
+          <li>Resolución de problemas</li>
+          <li>Atención al público</li>
+          <li>Buena organización</li>
+        </ul>
+      </section>
+
+      <!-- Contacto -->
+      <section id="contact" class="contact">
+        <h2 class="section-title">Contacto</h2>
+        <form
+          action="https://formspree.io/f/mrbgvqvb"
+          method="POST"
+          class="contact-form"
+        >
+          <div class="form-group">
+            <label for="email">Tu correo electrónico:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Tu mensaje:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer style="background-color: #f4f4f4; padding: 20px; text-align: center; font-size: 14px; border-top: 1px solid #ddd;">
+      <p><strong>Contacto:</strong></p>
+      <p><strong>Teléfono</strong>: 3496548309</p>
+      <p><strong>Email</strong>: <a href="mailto:franciscobonfanti01@gmail.com">franciscobonfanti01@gmail.com</a></p>
+      <p><strong>GitHub</strong>: <a href="https://github.com/FranciscoBonfanti" target="_blank">github.com/FranciscoBonfanti</a></p>
+      <p><strong>LinkedIn</strong>: <a href="https://linkedin.com/in/francisco-bonfanti" target="_blank">linkedin.com/in/francisco-bonfanti</a></p>
+  </footer>
+  
+
+    <script src="/src/assets/script.js"></script>
+  </body>
+
+</html>
